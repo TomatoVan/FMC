@@ -1,0 +1,32 @@
+.adv {
+    background-color: #f3f3f3;
+    padding-top: 55px;
+    &__title {
+        text-transform: uppercase;
+        color: #2e2e2e;
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 30px;
+        display: grid;
+        grid-template: repeat(4, minmax(62px, auto)) / repeat(2, minmax(488px, auto));
+        gap: 36px 100px;
+    }
+    &__blocks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__icon {
+        margin-right: 17px;
+    }
+    &__descr {
+        color: #ec644b;
+    }
+    &__about {
+        margin-top: 5px;
+        color: #3a3a3a;
+    }
+   
+     
+}

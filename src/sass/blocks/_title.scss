@@ -1,29 +1,40 @@
 .title {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 60px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
     &_fz12 {
-        font-weight: 500;
         font-size: 12px;
-        line-height: 18px;
+        line-height: 22px;
+        font-weight: 400;
     }
     &_fz14 {
         font-size: 14px;
-        line-height: 21px;
+        line-height: 24px;
+        font-weight: 300;
     }
     &_fz16 {
         font-size: 16px;
         line-height: 24px;
+        font-weight: 700;
     }
-    &_fz20 {
-        font-size: 20px;
-        line-height: 30px;
+    &_fz24 {
+        font-size: 24px;
+        font-weight: 300;
+    }  
+    &_fz26 {
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
     }
-    &_fz36{
-        font-size: 36px;
-    }
-    &_fz48 {
-        font-size: 48px;
+    &_fz42 {
+        font-size: 42px;
+        font-weight: 400;
+
+    } 
+    &_fz72 {
+        font-size: 72px;
+        font-weight: 700;
+
     }
    
 }
