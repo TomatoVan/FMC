@@ -1,11 +1,6 @@
 .adv {
     background-color: #f3f3f3;
     padding-top: 55px;
-    &__title {
-        text-transform: uppercase;
-        color: #2e2e2e;
-        text-align: center;
-    }
     &__wrapper {
         margin-top: 30px;
         display: grid;
@@ -21,7 +16,7 @@
         margin-right: 17px;
     }
     &__descr {
-        color: #ec644b;
+        color: $main-color;
     }
     &__about {
         margin-top: 5px;

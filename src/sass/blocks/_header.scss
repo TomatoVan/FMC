@@ -29,8 +29,8 @@
         color: #ffffff;
         &:hover {
             text-decoration: none;
-            color: #ec644b;
-            border-bottom:1px solid #ec644b;
+            color: $main-color;
+            border-bottom:1px solid $main-color;
             padding-bottom: 2px;
         }
     }
@@ -45,7 +45,7 @@
         &:hover {
             text-decoration: none;
             color: #ec644b;
-            border-bottom:1px solid #ec644b;
+            border-bottom:1px solid $main-color;
             padding-bottom: 2px;
         }
     }
@@ -54,11 +54,11 @@
         border-radius: 50px;
         border: none;
         height: 45px;
-        background-color: #ec644b;
+        background-color: $main-color;
         text-transform: uppercase;
         color: #ffffff;
         &:hover {
-            box-shadow: 4px 4px 22px#ec644b;
+            box-shadow: 4px 4px 22px$main-color;
         }
     }
     &__about {
@@ -72,7 +72,7 @@
     &__about2 {
         margin-top: 10px;
         text-transform: uppercase;
-        color: #ec644b;
+        color: $main-color;
         
     }
     &__about3 {
@@ -112,11 +112,11 @@
         border-radius: 50px;
         border: none;
         height: 57px;
-        background-color: #ec644b;
+        background-color: $main-color;
         text-transform: uppercase;
         color: #ffffff;
         &:hover {
-            box-shadow: 4px 4px 22px#ec644b;
+            box-shadow: 4px 4px 22px $main-color;
         }
     }
 }

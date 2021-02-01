@@ -1,0 +1,35 @@
+.work {
+    padding-top: 125px;
+    &__divider {
+        width: 148px;
+        border-top: 1px solid  $main-color;
+        margin: 20px auto;
+    }
+    &__descr {
+        display: block;
+        margin: 15px auto;
+        text-align: center;
+        color: #2e2e2e;
+        max-width: 879px;
+    }
+    &__wrapper {
+        margin-top: 35px;
+        display: grid;
+        grid-template: minmax(370px, auto) / repeat(3, 360px);
+        column-gap: 30px;
+        align-items: flex-start;
+    }
+    &__blocks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__head {
+        color:$main-color;
+    }
+    &__body {
+        color: #3a3a3a;
+        text-align: center;
+    }
+}
