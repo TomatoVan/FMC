@@ -8,6 +8,8 @@
         gap: 20px;
         align-items: center;
         justify-items:center;
+        justify-content: center;
+        align-items: flex-start;
     }
         
     &__block {
@@ -19,7 +21,7 @@
     &__blocks {
         margin-top: 10px;
         display: grid;
-        grid-column: 1 / 8;
+        grid-column: 1 / 5;
         grid-template: minmax(116px, auto) / repeat(3, 249px);
         align-items: center;
     }

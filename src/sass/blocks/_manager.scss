@@ -3,4 +3,8 @@
     margin-top: 50px;
     background: url('../../img/bg/bg3.png') center center/cover no-repeat;
     height: 342px;
+    &__wrapp {
+        display: flex;
+        flex-direction: column;
+    }
 }
