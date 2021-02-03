@@ -8,7 +8,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 896px;
+        width: 720px;
         height: 297px;
         background-color:rgba(255, 255, 255, 0.7);
         margin-top: 40px;        
@@ -19,7 +19,7 @@
         padding-top: 5px;
         margin-top: -45px;
         background-color: #25333c;
-        width: 896px;
+        width: 720px;
         height: 68px;
         text-transform: uppercase;
         color: #ffffff;
@@ -30,6 +30,7 @@
         margin-top: 35px;
         display: grid;
         grid-template: 47px minmax(73, auto) auto / repeat(3, 270px);
+        justify-content: center;
     }
     &__input {
         grid-row: 1 / 2;

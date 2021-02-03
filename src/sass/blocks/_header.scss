@@ -2,7 +2,7 @@
     position: relative;
     padding-top: 25px;
     background: url('../../img/bg/bg1.png') center center/cover no-repeat;
-    height: 680px;
+    min-height: 690px;
     &__wrapper {
         display: flex;
         justify-content: center;
@@ -60,6 +60,10 @@
         &:hover {
             box-shadow: 4px 4px 22px$main-color;
         }
+        &:focus {
+            outline:none;
+        }
+        
     }
     &__about {
         margin-top: 58px;
@@ -90,23 +94,26 @@
         margin-top: 27px;
         display: flex;
         justify-content: center;
-        align-items: center;
     }
     &__block {
         margin: 20px;
-        width: 260px;
-        height: 85px;
+        width: 200px;
+        height: 170px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content:flex-start ;
+    }
+    &__icon {
+        width: 52px;
+        height: 50px;
     }
     &__text {
         color:white;
         text-align: center;
     }
     &__btn2 {
-        margin: 50px auto;
+        margin: auto;
         display: block;
         width: 230px;
         border-radius: 50px;
@@ -118,5 +125,9 @@
         &:hover {
             box-shadow: 4px 4px 22px $main-color;
         }
+        &:focus {
+            outline:none;
+        }
+        
     }
 }

@@ -19,6 +19,7 @@
         text-align: center;
     }
     &__blocks {
+        gap: 20px;
         margin-top: 10px;
         display: grid;
         grid-column: 1 / 5;
