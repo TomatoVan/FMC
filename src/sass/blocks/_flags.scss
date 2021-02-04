@@ -1,0 +1,34 @@
+.flags {
+    padding-top: 10px;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__block {
+        position: relative;
+        height: 50px;
+        margin: 0px 30px;
+    }
+    &__icon {
+        position: absolute;
+        top: 5px;
+        left: -38px;
+        width: 28px;
+        height: 21px;
+
+    }
+    &__head {
+        color: #242424;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 700;
+        
+    }
+    &__body {
+        font-size: 12px;
+        font-weight: 300;
+       
+    }
+}

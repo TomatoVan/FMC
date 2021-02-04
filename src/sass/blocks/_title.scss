@@ -1,0 +1,78 @@
+.title {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    &_fz12 {
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+    &__fz13 {
+        font-size: 13px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+    &_fz14 {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+    &_fz16 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    &_fz16l {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+    &_fz18 {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+    }
+    &_fz19 {
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+    }
+    &_fz21 {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+    &_fz24 {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 300;
+    }  
+    &_fz26 {
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+    }
+    &_fz28{
+        font-size: 28px;
+        line-height: 30px;
+        text-transform: none;
+    }
+    &_fz42 {
+        font-size: 42px;
+        line-height: 48px;
+        font-weight: 900;
+    } 
+    &_fz72 {
+        font-size: 72px;
+        font-weight: 700;
+    }
+    &_head {
+        text-transform: uppercase;
+        color: #2e2e2e;
+        text-align: center;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+    }
+   
+}

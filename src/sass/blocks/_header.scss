@@ -1,0 +1,71 @@
+.header {
+    margin-top: 15px;
+    background: url('../../img/bg/bg1.png') center center/cover no-repeat;
+    min-height: 700px;
+    &__wrapper {
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    &__items {
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        list-style-type: none;
+    }
+    &__link {
+        margin-right: 45px;
+        color: #ffffff;
+        font-size: 13px;
+        line-height: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover {
+            text-decoration: none;
+            color: $main-color;
+            border-bottom:1px solid $main-color;
+            padding-bottom: 2px;
+        }
+    }
+    &__wrapper2 {
+        margin-top: 130px;
+        position: relative;
+
+    }
+    &__title {
+        color: #ffffff;
+    }
+    &__descr {
+        color: #ffffff;
+        margin-top: 20px;
+    }
+    span {
+        font-weight: 400;
+    }
+    &__btn {
+        margin-top: 30px;
+        color: #ffffff;
+        width: 241px;
+        height: 60px;
+        border-radius: 5px;
+        background-color: #00c2f0;
+        box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.07);
+        text-transform: uppercase;
+        border:none;
+        &:hover {
+            box-shadow: 4px 4px 22px $main-color;
+        }
+        &:focus {
+            outline:none;
+        }
+    }
+    &__phone {
+        position: absolute;
+        top: -106px;
+        right: 46px;
+    }
+    
+}
