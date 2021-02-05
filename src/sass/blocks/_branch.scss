@@ -1,0 +1,48 @@
+.branch {
+    padding-top: 80px;
+    background: url('../../img/bg/bg2.png') center center/cover no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__descr {
+        margin-top: 25px;
+        color:#fff;
+        text-align: center;
+    }
+    &__items {
+        margin-top: 25px;
+        display: flex;
+        list-style-type: none;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        width: 75%;
+        height: 64px;
+            
+    } 
+    &__item {
+        margin: auto auto;
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
+        border-right: 1px groove white;
+        line-height: 49px;
+        &:last-child {
+            border-right:none;
+        }
+    }
+    &__link {
+        color:#fff;
+        margin: 25px;
+        &:hover {
+            text-decoration: none;
+            color: $main-color;
+        }
+    }
+    &__icon {
+        margin-top: 30px;
+    }
+}

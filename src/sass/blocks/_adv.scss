@@ -1,0 +1,32 @@
+.adv {
+    padding-top: 80px;
+    &__descr {
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 40px;
+        display: grid;
+        grid-template: repeat(3, 355px) / repeat(2, 570px);
+        grid-auto-rows: 570px;
+    }
+    &__block {
+        position: relative;
+    }
+    &__about {
+        text-align: center;
+        font-size: 23px;
+        line-height: 26px;
+        font-weight: 400;
+        position: absolute;
+       /*  bottom: 65%;
+        transform: translateX(-50%);
+        left: 50%; */
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        color: #fff;
+        max-width: 338px;
+    }
+    
+    
+}
