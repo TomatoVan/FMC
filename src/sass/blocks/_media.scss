@@ -1,0 +1,18 @@
+@media (max-width:1200px) {
+    .safe {
+        &__aboutR {
+            left: 67%;
+            &_L {
+                left: 34%;
+            }
+        }
+        &__textR {
+            top: 68%;
+            left: 67%;
+            &_L {
+                left: 29%;
+                top: 63%;
+            }
+        }
+    }
+}

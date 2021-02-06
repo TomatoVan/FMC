@@ -10,7 +10,9 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-
+body {
+    min-width: 1200px;
+}
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -25,4 +27,5 @@
 @import 'blocks/safe';
 @import 'blocks/begin';
 @import 'blocks/footer';
+@import 'blocks/media';
 
